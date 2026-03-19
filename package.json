@@ -1,11 +1,14 @@
 {
-  "name": "ex-async",
-  "version": "1.0.0",
+  "name": "express-async-x",
+  "version": "1.1.0",
   "private": false,
   "description": "Express middleware helper for async error handling",
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
@@ -36,7 +39,6 @@
     "async-handler"
   ],
   "author": "jsdev.robin@gmail.com",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/jsdev-robin/ex-async/issues"
   },
