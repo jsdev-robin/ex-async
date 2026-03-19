@@ -1,0 +1,58 @@
+{
+  "name": "ex-async",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Express middleware helper for async error handling",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsdev-robin/ex-async.git"
+  },
+  "keywords": [
+    "express",
+    "async",
+    "middleware",
+    "error-handling",
+    "typescript",
+    "node",
+    "catch-async",
+    "backend",
+    "express-middleware",
+    "async-handler"
+  ],
+  "author": "jsdev.robin@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsdev-robin/ex-async/issues"
+  },
+  "homepage": "https://github.com/jsdev-robin/ex-async#readme",
+  "peerDependencies": {
+    "express": "^4 || ^5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.5.0",
+    "eslint": "^10.0.3",
+    "express": "^5.2.1",
+    "globals": "^17.4.0",
+    "jiti": "^2.6.1",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.57.1"
+  }
+}
